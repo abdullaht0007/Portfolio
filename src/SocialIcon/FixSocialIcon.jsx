@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "@emotion/styled";
-import ScrollAnimation from "react-animate-on-scroll";
+
 
 const SocialContainer = styled.div`
   position: fixed;
@@ -54,7 +54,7 @@ const SocialContainer = styled.div`
 function FixSocialIcon() {
   return (
     <SocialContainer>
-      <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+  
         <ul>
           <li className="item">
             <a
@@ -75,7 +75,7 @@ function FixSocialIcon() {
             </a>
           </li>
         </ul>
-      </ScrollAnimation>
+    
     </SocialContainer>
   );
 }

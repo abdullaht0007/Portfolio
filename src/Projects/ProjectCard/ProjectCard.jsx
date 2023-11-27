@@ -8,13 +8,13 @@ import {
   TechCard,
   BtnGroup,
 } from "./ProjectCardElements";
-import ScrollAnimation from "react-animate-on-scroll";
+
 import { ProjectList } from "../../ProjectData";
 function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        <ScrollAnimation animateIn="fadeInLeft" key={index}>
+
           <Card>
             <CardLeft>
               <img src={list.img} alt={list.name} />
@@ -51,7 +51,7 @@ function ProjectCard() {
               </BtnGroup>
             </CardRight>
           </Card>
-        </ScrollAnimation>
+ 
       ))}
     </>
   );
