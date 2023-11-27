@@ -1,15 +1,15 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/back.jpg",
-    title: "Project",
+    img: "./back.jpg",
+    title: "Project Data",
     description:
       "",
     tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
     github_url: "jdbdabd",
     demo_url: "lkdkede",
   },  {
-    img: "/back.jpg",
+    img: "./back.jpg",
     title: "Project",
     description:
       "",
@@ -17,7 +17,7 @@ export const ProjectList = [
     github_url: "",
     demo_url: "",
   },  {
-    img: "/back.jpg",
+    img: "./back.jpg",
     title: "Project",
     description:
       "",
@@ -25,7 +25,7 @@ export const ProjectList = [
     github_url: "",
     demo_url: "",
   },  {
-    img: "/back.jpg",
+    img: "./back.jpg",
     title: "Project",
     description:
       "",

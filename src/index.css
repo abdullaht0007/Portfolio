@@ -17,8 +17,8 @@ body {
 }
 
 main {
-  background: #3a0cc5;
-  background-image: url('../blob-haikei.svg');
+  background: #164863;
+  background-image: url('/blob-haikei.svg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

@@ -101,13 +101,14 @@ const ScrollAnimation = keyframes`
 
 export const ScrollDown = styled(LinkScroll)`
   display: flex;
-  justify-content: flex-start;
+  top:420px;
+  justify-content: center;
   cursor: pointer;
   position: absolute;
 
   animation: ${ScrollAnimation} 2s linear 0s infinite;
   @media screen and (max-width: 992px) {
-    position: relative;
+    position: absolute;
     justify-content: center;
     margin-top: 2rem;
   }
