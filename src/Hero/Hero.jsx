@@ -11,7 +11,6 @@ import {
   ScrollLink,
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
-import ScrollAnimation from "react-animate-on-scroll";
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +27,6 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <ScrollAnimation animateIn="fadeIn" >
               <TypeAnimation
                 cursor={false}
                 sequence={[
@@ -59,29 +57,24 @@ function Hero() {
                   repeat={Infinity}
                 />
               }
-            </ScrollAnimation>
 
           </HeroLeft>
           <HeroRight>
-            <ScrollAnimation animateIn="fadeIn">
               <Image
                 src=""
                 alt=""
               />
-            </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>
-        {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
         <ScrollDown to="projects" id="scrollDown">
           <ScrollLink>
             Scroll down
             <img
-              src="/scroll-down.svg"
+              src="./scroll-down.svg"
               alt="scroll-down"
             />
           </ScrollLink>
         </ScrollDown>
-        </ScrollAnimation>}
       </HeroContainer>
     </main>
   );
