@@ -25,9 +25,10 @@ function Hero() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Header toggle={toggle} />
       <HeroContainer>
-        <h2>Not fully developed yet </h2>
+ 
         <HeroWrapper>
           <HeroLeft>
+            <h2>Not fully developed yet</h2>
               <TypeAnimation
                 cursor={false}
                 sequence={[
