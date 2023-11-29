@@ -28,7 +28,7 @@ function Hero() {
  
         <HeroWrapper>
           <HeroLeft>
-            <h2>Not fully developed yet</h2>
+            <h1>Not fully developed yet</h1>
               <TypeAnimation
                 cursor={false}
                 sequence={[
